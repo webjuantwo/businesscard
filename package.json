@@ -1,16 +1,16 @@
 {
-  "name": "bitandbang",
-  "version": "2.1.1",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
+  "name": "webjuan",
+  "version": "0.0.1",
+  "description": "A personal card for Juan Martinez (@webjuan)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "webjuan": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git@github.com:webjuantwo/businesscard.git"
   },
-  "homepage": "https://bnb.im",
+  "homepage": "https://alittlestupid.com",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
@@ -25,7 +25,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Juan Martinez <hello@alittlestupid.com> (http://alittlestupid.com)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -36,8 +36,7 @@
     "chalk": "^2.4.1",
     "standard": "^12.0.1"
   },
-  "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
-  },
-  "dependencies": {}
+  "dependencies": {
+    "webjuan": "^0.0.1"
+  }
 }
